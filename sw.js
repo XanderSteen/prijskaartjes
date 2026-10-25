@@ -1,5 +1,5 @@
 // Houdt de app bruikbaar zonder internet. Eerst het netwerk, anders de bewaarde kopie.
-const CACHE = 'prijskaartjes-v1';
+const CACHE = 'prijskaartjes-v2';
 const FILES = ['./', 'index.html', 'manifest.webmanifest', 'icon-180.png', 'icon-192.png', 'icon-512.png'];
 
 self.addEventListener('install', e => {
